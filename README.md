@@ -8,12 +8,12 @@ docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m -v /user
 
 per far partire il container
 ```
-docker start roverchallenge
+docker start roboticapoli
 ```
 
 per entrare nella CLI
 ```
-docker exec -it roverchallenge /bin/sh
+docker exec -it roboticapoli /bin/sh
 ```
 
 per fare il source di ros(basterà farlo 1 volta)
