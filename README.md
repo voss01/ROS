@@ -14,10 +14,15 @@ per far partire il container
 docker start roboticapoli
 ```
 
-per entrare nella CLI
+per entrare nella CLI dalla hostmachine
 ```
 docker exec -it roboticapoli /bin/sh
 ```
+
+per entrae nella GUI da VNC
+http://localhost:6080
+
+
 
 
 
