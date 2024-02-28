@@ -32,10 +32,17 @@ docker start roboticapoli
 
 # Spazio catkin preconfigurato
 
-per andarer allo spazio catkin 
+per andarer allo spazio catkin dalla host machine (usando docker)
 ```
 cd home/ubuntu/shared/catkin_ws
 ```
+
+dall terminale della GUI ubuntu
+
+```
+cd shared/catkin_ws
+```
+
 
 questa cartella si trova anche sulla propria macchina hostmachine su
 
