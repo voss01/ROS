@@ -2,9 +2,12 @@
 
 
 ```
-docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m -v /users/gabrielvoss/documents:/home/ubuntu/condivisa --name roboticapoli vossgit/roboticapoli:latest 
+docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m -v <AbsolutePathOnHost>:/home/ubuntu/shared --name roboticapoli vossgit/roboticapoli:updated 
 
 ```
+mi sono creato una cartella lab e ho sostituito con la sua path assoluta 
+<AbsolutePathOnHost> -> /users/gabrielvoss/documents/lab
+
 
 per far partire il container
 ```
@@ -16,18 +19,19 @@ per entrare nella CLI
 docker exec -it roboticapoli /bin/sh
 ```
 
-per fare il source di ros(basterà farlo 1 volta)
-```
-
-echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
-source ~/.bashrc
-```
-```
-echo "source /opt/ros/noetic/setup.bash\n" >> /home/ubuntu/.bashrc
-source ~/home/ubuntu/.bashrc
 
 
-```
+
+
+
+
+
+
+# se volgio aggiungere uno spzaio catkin
+
+---
+è meglio farlo dalla GUI di ubuntu perchè cosi le cartelle sono modificabili sia dal vnc che dall'interno della gui
+
 
 creazione di uno spazio catkin
 ```
