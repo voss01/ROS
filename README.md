@@ -2,6 +2,11 @@
 
 
 ```
+docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m -v /users/gabrielvoss/documents/GitHub:/github --name roboticapoli vossgit/roboticapoli:latest 
+
+```
+
+```
 
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
