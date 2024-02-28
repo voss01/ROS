@@ -6,7 +6,7 @@ docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m -v <Abso
 
 ```
 mi sono creato una cartella lab e ho sostituito con la sua path assoluta 
-<AbsolutePathOnHost> -> /users/gabrielvoss/documents/lab
+<AbsolutePathOnHost> -> /Users/gabrielvoss/Documents/lab
 
 
 
