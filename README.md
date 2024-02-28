@@ -2,7 +2,7 @@
 
 
 ```
-docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m -v /users/gabrielvoss/documents/GitHub:/home/ubuntu/condivisa --name roboticapoli vossgit/roboticapoli:latest 
+docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m -v /users/gabrielvoss/documents:/home/ubuntu/condivisa --name roboticapoli vossgit/roboticapoli:latest 
 
 ```
 
