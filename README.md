@@ -9,10 +9,7 @@ mi sono creato una cartella lab e ho sostituito con la sua path assoluta
 <AbsolutePathOnHost> -> /users/gabrielvoss/documents/lab
 
 
-per far partire il container
-```
-docker start roboticapoli
-```
+
 
 per entrare nella CLI dalla hostmachine
 ```
@@ -23,6 +20,13 @@ per entrae nella GUI da VNC
 http://localhost:6080
 
 
+
+
+per far partire il container le volte successive invece che usare docker run si usa
+
+```
+docker start roboticapoli
+```
 
 
 
