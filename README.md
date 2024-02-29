@@ -117,7 +117,7 @@ This is because if you access with the docker shell from the HOST MACHINE you ar
 So from [﻿http://localhost:6080](http://localhost:6080/)  open a terrminal (with terminator) and write
 
 ```
-cd /home/ubuntu/condivisa
+cd /home/ubuntu/shared
 mkdir -p /catkin_ws2/src
 cd /catkin_ws2/
 
