@@ -2,7 +2,7 @@
 
 
 ```
-docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m -v <AbsolutePathOnHost>:/home/ubuntu/shared --name roboticapoli vossgit/roboticapoli:updated 
+docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m -v <AbsolutePathOnHost>:/home/ubuntu/shared --name roboticapoli vossgit/roboticapoli:final 
 
 ```
 mi sono creato una cartella lab e ho sostituito con la sua path assoluta 
