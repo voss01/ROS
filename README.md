@@ -1,6 +1,7 @@
+![diagram-export-29-2-2024-16_01_37](https://github.com/voss01/ROS/assets/49610092/b9cf01a2-96a0-4710-b81c-5e1a8b7ea4bb)
 
 
-This is a guide to make the setup process easier for everyone.
+
 
 ### Install Docker
 [﻿https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/) 
