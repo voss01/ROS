@@ -40,10 +40,13 @@ per andarer allo spazio catkin dal terminale docker sulla host machine
 cd home/ubuntu/shared/catkin_ws
 ```
 
-dall terminale della GUI ubuntu
+dalla GUI ubuntu
 
+basta aprire un terminale e ci si ritrova subito nella cartella catkin_ws
+
+e si trova in 
 ```
-cd shared/catkin_ws
+home/ubuntu/shared/catkin_ws
 ```
 
 
