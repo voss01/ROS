@@ -120,7 +120,7 @@ So from [﻿http://localhost:6080](http://localhost:6080/)  open a terrminal (wi
 
 ```
 cd /home/ubuntu/shared
-mkdir -p /catkin_ws2/src
+mkdir -p catkin_ws2/src
 cd /catkin_ws2/
 
 catkin_make
