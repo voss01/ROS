@@ -31,7 +31,7 @@ You will have to write to the mount your own folder
 example with a Lab folder
 
 ```
-AbsolutePathOnHost
+<AbsolutePathOnHost>
 ```
 the whole string including <> Becomes:
 
