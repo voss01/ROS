@@ -56,7 +56,7 @@ AbsolutePathOnHost/catkin_ws/
 # se volgio aggiungere uno spzaio catkin
 
 ---
-è meglio farlo dalla GUI di ubuntu perchè cosi le cartelle sono modificabili sia dal vnc che dall'interno della gui
+è meglio farlo dalla GUI di ubuntu perchè cosi le cartelle sono modificabili sia dalla host machine che dall'interno della gui vnc
 
 
 creazione di uno spazio catkin
