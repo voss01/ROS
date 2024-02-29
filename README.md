@@ -15,7 +15,7 @@ This Docker container is set up for running a robotic simulation environment wit
 
 **ROS Version:** The container is configured to run with ROS (Robot Operating System) in the "noetic" release.
 
-**Catkin_ws: **This docker setup will provide a preconfigured catkin workspace accessible both on the HOST MACHINE and the UBUNTU os
+**Catkin_ws:** This docker setup will provide a preconfigured catkin workspace accessible both on the HOST MACHINE and the UBUNTU os
 
 # Download the image and run it
 This line will download, from docker hub, the docker image if it's not already on your host machine
