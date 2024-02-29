@@ -2,9 +2,10 @@
 
 
 ```
-docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m -v <AbsolutePathOnHost>:/home/ubuntu/shared --name roboticapoli vossgit/roboticapoli:final 
-
+docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m -v <AbsolutePathOnHost>:/home/ubuntu/shared --name roboticapoli vossgit/roboticapoli:final
 ```
+
+
 mi sono creato una cartella lab e ho sostituito con la sua path assoluta 
 <AbsolutePathOnHost> -> /Users/gabrielvoss/Documents/lab
 
@@ -34,7 +35,7 @@ docker start roboticapoli
 
 # Spazio catkin preconfigurato
 
-per andarer allo spazio catkin dalla host machine (usando docker)
+per andarer allo spazio catkin dal terminale docker sulla host machine
 ```
 cd home/ubuntu/shared/catkin_ws
 ```
@@ -48,7 +49,7 @@ cd shared/catkin_ws
 
 questa cartella si trova anche sulla propria macchina hostmachine su
 
-<AbsolutePathOnHost>/catkin_ws/
+AbsolutePathOnHost/catkin_ws/
 
 
 
