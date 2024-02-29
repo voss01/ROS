@@ -81,15 +81,17 @@ There are 2 ways
 
 - from the HOST MACHINE using a shell to access the docker container
 - using the UBUNTU GUI using vnc
+
+**first method**
 To move to the "catkin_ws" directory from the Docker terminal on the host machine, you can follow these steps:
 
-1. Open a terminal within your Docker container.
+1. Open a shell with docker`docker exec -it roboticapoli /bin/sh `
 2. Use the command `cd /home/ubuntu/shared/catkin_ws`  to change directory to the "catkin_ws" directory.
 3. Now, you're in the "catkin_ws" directory within your Docker container.
 
 
 
-
+**second method**
 If you want to access the same directory on UBUNTU:
 
 1. go to  [﻿http://localhost:6080](http://localhost:6080/) 
