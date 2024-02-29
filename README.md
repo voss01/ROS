@@ -83,7 +83,7 @@ There are 2 ways
 To move to the "catkin_ws" directory from the Docker terminal on the host machine, you can follow these steps:
 
 1. Open a terminal within your Docker container.
-2. Use the command `**cd /home/ubuntu/shared/catkin_ws**`  to change directory to the "catkin_ws" directory.
+2. Use the command `cd /home/ubuntu/shared/catkin_ws`  to change directory to the "catkin_ws" directory.
 3. Now, you're in the "catkin_ws" directory within your Docker container.
 
 
@@ -97,7 +97,7 @@ If you want to access the same directory on UBUNTU:
 
 Additionally you can find your files and edit them on the HOST MACHINE using your preferred IDE
 
-1. You mentioned the directory exists on your host machine at `**AbsolutePathOnHost/catkin_ws/**` .
+1. You mentioned the directory exists on your host machine at `AbsolutePathOnHost/catkin_ws/` .
 
 
 
