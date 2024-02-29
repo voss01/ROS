@@ -62,8 +62,8 @@ AbsolutePathOnHost/catkin_ws/
 creazione di uno spazio catkin
 ```
 cd /home/ubuntu/condivisa
-mkdir -p /catkin_ws/src
-cd /catkin_ws/
+mkdir -p /catkin_ws2/src
+cd /catkin_ws2/
 
 catkin_make
 ```
@@ -71,10 +71,10 @@ catkin_make
 per fare il source dello spazio catkin(basterà farlo 1 volta)
 ```
 
-echo "source /home/ubuntu/condivisa/catkin_ws/devel/setup.bash" >> ~/.bashrc
+echo "source /home/ubuntu/condivisa/catkin_ws2/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
-sudo printf "source /home/ubuntu/condivisa/catkin_ws/devel/setup.bash\n" >> /home/ubuntu/.bashrc
+sudo printf "source /home/ubuntu/condivisa/catkin_ws2/devel/setup.bash\n" >> /home/ubuntu/.bashrc
 source /home/ubuntu/.bashrc
 
 ```
