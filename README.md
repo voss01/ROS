@@ -40,7 +40,7 @@ the whole string including <> Becomes:
 - Windows: C:\Users\kale\Lab
 - Linux: /home/user/Lab
 
-
+Having putted AbsolutePathOnHost in the correct place of the following command you can now execute it (remember to have the docker app open in the backround otherwise it won't work)
 ```
 docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m -v <AbsolutePathOnHost>:/home/ubuntu/shared --name roboticapoli vossgit/roboticapoli:prod
 ```
