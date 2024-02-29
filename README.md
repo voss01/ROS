@@ -126,10 +126,10 @@ catkin_make
 source the work space (this can be done just once)
 
 ```
-echo "source /home/ubuntu/condivisa/catkin_ws2/devel/setup.bash" >> ~/.bashrc
+echo "source /home/ubuntu/shared/catkin_ws2/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
-sudo printf "source /home/ubuntu/condivisa/catkin_ws2/devel/setup.bash\n" >> /home/ubuntu/.bashrc
+sudo printf "source /home/ubuntu/shared/catkin_ws2/devel/setup.bash\n" >> /home/ubuntu/.bashrc
 source /home/ubuntu/.bashrc
 ```
 
