@@ -24,7 +24,9 @@ The image will be then automatically start
 
 
 
-- **important note**: for Mac and linux users in docker before executing the following commands you have to set in preferences -> resources -> file sharing the path to the github folder
+- **important note**:
+  1. for Mac and linux users in docker before executing the following commands you have to set in preferences -> resources -> file sharing the path to the github folder
+  2. for Mac users with M chips (arm) go to docker settings -> general -> enable "Use Rosetta for x86/amd64 emulation on Apple Silicon"
 
 
 You will have to write to the mount your own folder
