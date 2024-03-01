@@ -63,6 +63,8 @@ At this point you should get as output a bunch of `RUNNING state` lines from vnc
 ```
 docker exec -it roboticapoli /bin/sh
 ```
+then to use the more useful bash just write <br>
+`bash`
 
 
 ### Accessing the GUI
