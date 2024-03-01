@@ -63,7 +63,7 @@ At this point you should get as output a bunch of `RUNNING state` lines from vnc
 ```
 docker exec -it roboticapoli /bin/sh
 ```
-then to use the more useful bash just write <br>
+Inside the shell that will be automatically start to use the more useful bash just write next to the # <br>
 `bash`
 
 
@@ -83,7 +83,7 @@ docker start roboticapoli
 ```
 docker exec -it roboticapoli /bin/sh
 ```
-
+`bash`
 
 ---
 
