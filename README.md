@@ -39,7 +39,7 @@ example with a Lab folder
 the whole string including <> Becomes:
 
 - MacOS: /Users/Documents/Lab
-- Windows: C:\Users\kale\Lab
+- Windows: C:\Users\name\Lab
 - Linux: /home/user/Lab
 
 Having putted AbsolutePathOnHost in the correct place of the following command you can now execute it (remember to have the docker app open in the backround otherwise it won't work)
