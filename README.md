@@ -43,10 +43,10 @@ the whole string including <> Becomes:
 - Windows: C:\Users\user\Lab
 - Linux: /home/user/Lab
 
-Having putted AbsolutePathOnHost in the correct place of the following command you can now execute it (remember to have the docker app open in the backround otherwise it won't work).
+Having specified `<AbsolutePathOnHost>` in the correct place of the following command you can now execute it (remember to have the docker app open in the backround otherwise it won't work).
 <br>
 <br>
-Docker run will download the image automatically and run it from docker hub.
+Docker run will download the image automatically from docker hub and run it.
 <br>
 <br>
 Do not remove or change `:/home/ubuntu/shared` as it is the path of the folder that will be created inside the docker container and where the catkin_ws will be stored.
