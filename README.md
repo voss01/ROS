@@ -55,7 +55,7 @@ Do not remove or change `:/home/ubuntu/shared` as it is the path of the folder t
 ```
 docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m -v <AbsolutePathOnHost>:/home/ubuntu/shared --name roboticapoli vossgit/roboticapoli:prod
 ```
-At this point you should get as output a bunch of `RUNNING state` lines and you can proceed.
+At this point you should get as output a bunch of `RUNNING state` lines from vnc and novnc and you can proceed.
 
 
 
