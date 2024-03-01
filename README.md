@@ -96,7 +96,7 @@ There are 2 ways
 **first method**
 To move to the "catkin_ws" directory from the Docker terminal on the host machine, you can follow these steps:
 
-1. Open a shell with docker`docker exec -it roboticapoli /bin/sh `
+1. Open a shell with docker`docker exec -it roboticapoli /bin/sh ` then write `bash`
 2. Use the command `cd /home/ubuntu/shared/catkin_ws`  to change directory to the "catkin_ws" directory.
 3. Now, you're in the "catkin_ws" directory within your Docker container.
 
