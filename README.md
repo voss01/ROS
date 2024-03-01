@@ -43,9 +43,9 @@ the whole string including <> Becomes:
 - Windows: C:\Users\user\Lab
 - Linux: /home/user/Lab
 
-Having putted AbsolutePathOnHost in the correct place of the following command you can now execute it (remember to have the docker app open in the backround otherwise it won't work)
-Docker run will download automatically the image from docker hub
-  Do not remove or change `:/home/ubuntu/shared` as it is the path of the folder that will be created inside the docker container and where the catkin_ws will be stored
+Having putted AbsolutePathOnHost in the correct place of the following command you can now execute it (remember to have the docker app open in the backround otherwise it won't work) <br>
+Docker run will download automatically the image from docker hub <br>
+Do not remove or change `:/home/ubuntu/shared` as it is the path of the folder that will be created inside the docker container and where the catkin_ws will be stored <br>
 ```
 docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m -v <AbsolutePathOnHost>:/home/ubuntu/shared --name roboticapoli vossgit/roboticapoli:prod
 ```
