@@ -1,5 +1,12 @@
+# ROS NOETIC DOCKER SETUP
 ![diagram-export-29-2-2024-16_01_37](https://github.com/voss01/ROS/assets/49610092/b9cf01a2-96a0-4710-b81c-5e1a8b7ea4bb)
 
+### Description
+This Docker container is set up for running a robotic simulation environment with the following specifications:
+
+**ROS Version:** The container is configured to run with ROS (Robot Operating System) in the "noetic" release.
+
+**Catkin_ws:** This docker setup will provide a preconfigured catkin workspace accessible both on the HOST MACHINE and the UBUNTU os
 
 
 
@@ -10,12 +17,6 @@
 
 - you have to enable hardware assisted virtualization on windows [﻿forums.docker.com/t/hardware-assisted-virtualization-and-data-execution-protection-must-be-enabled-in-the-bios/109073](https://forums.docker.com/t/hardware-assisted-virtualization-and-data-execution-protection-must-be-enabled-in-the-bios/109073) 
 - if you have an older version of operating system you may want to install an older version of docker [﻿docs.docker.com/desktop/release-notes/](https://docs.docker.com/desktop/release-notes/) 
-### Description
-This Docker container is set up for running a robotic simulation environment with the following specifications:
-
-**ROS Version:** The container is configured to run with ROS (Robot Operating System) in the "noetic" release.
-
-**Catkin_ws:** This docker setup will provide a preconfigured catkin workspace accessible both on the HOST MACHINE and the UBUNTU os
 
 # Download the image and run it
 This line will download, from docker hub, the docker image if it's not already on your host machine
