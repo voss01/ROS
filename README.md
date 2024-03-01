@@ -32,16 +32,16 @@ The image will be then automatically start
 
 You will have to write to the mount your own folder
 
-example with a Lab folder
+**Example** with a Lab folder
 
 ```
 <AbsolutePathOnHost>
 ```
 the whole string including <> Becomes:
 
-- MacOS: /Users/Documents/Lab
-- Windows: C:\Users\user\Lab
-- Linux: /home/user/Lab
+- for MacOS: `/Users/Documents/Lab`
+- for Windows: `C:\Users\user\Lab`
+- for Linux: `/home/user/Lab`
 
 Having specified `<AbsolutePathOnHost>` in the correct place of the following command you can now execute it (remember to have the docker app open in the backround otherwise it won't work).
 <br>
