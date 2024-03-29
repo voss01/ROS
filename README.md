@@ -1,6 +1,12 @@
 # ROS NOETIC DOCKER SETUP
 ![diagram-export-29-2-2024-16_01_37](https://github.com/voss01/ROS/assets/49610092/b9cf01a2-96a0-4710-b81c-5e1a8b7ea4bb)
 
+
+## update
+the image has been updated, if you dont want to pull the docker image again you can just install this from the terminal inside ubuntu
+```
+ apt-get install -y net-tools iproute2 ros-noetic-plotjuggler* ros-noetic-foxglove-bridge ros-noetic-turtlesim
+```
 ### Description
 This Docker container is set up for running a robotic simulation environment with the following specifications:
 
