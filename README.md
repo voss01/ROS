@@ -3,7 +3,7 @@
 
 
 ## update
-the image has been updated, if you dont want to pull the docker image again you can just install this from the terminal inside ubuntu
+the image has been updated, if you have already followed this process and dont want to pull the docker image again you can just install this from the terminal inside ubuntu
 ```
  apt-get install -y net-tools iproute2 ros-noetic-plotjuggler* ros-noetic-foxglove-bridge ros-noetic-turtlesim
 ```
